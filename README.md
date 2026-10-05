@@ -1,4 +1,4 @@
-# ⚡ GPU Attention Performance — Shared-Memory Optimization in CUDA
+# ⚡ GPU Attention Performance — CUDA Kernel Optimization with Shared Memory
 
 A hands-on study of how **shared-memory tiling** speeds up the three kernels of scaled dot-product attention (QK → Softmax → PV) on an **NVIDIA Tesla T4**. Each optimization is a separate, measured, validated experiment, so you can see exactly what each change buys you.
 
