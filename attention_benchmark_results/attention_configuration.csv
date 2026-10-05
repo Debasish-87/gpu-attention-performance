@@ -1,0 +1,8 @@
+Parameter,Value
+GPU,NVIDIA Tesla T4
+Sequence Length,512
+Heads,12
+Head Dimension,64
+Precision,FP16
+Warmup,20
+Iterations,100

@@ -1,0 +1,4 @@
+Version,Experiment,Optimization,Average_Latency,Speedup_vs_V0
+V0,Baseline Attention,QK + Softmax + PV baseline,4.72884 ms,1.000×
+V1,QK Shared Memory,Shared-memory tiling for QK,3.02066 ms,1.565×
+V2,QK + PV Shared Memory,Shared-memory tiling for QK and PV,2.81819 ms,1.678×
