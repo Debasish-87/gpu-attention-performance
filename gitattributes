@@ -1,0 +1,5 @@
+# Count notebooks as documentation so GitHub's language bar shows Cuda
+*.ipynb linguist-documentation
+
+# Nsight Compute reports are large binaries
+*.ncu-rep binary
